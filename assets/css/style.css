@@ -1,10 +1,12 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:700');
+
 
 body {
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  
 }
 
 
@@ -17,14 +19,14 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 20rem;
   z-index: 10;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 58rem;
+  height: 60rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -32,7 +34,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 58rem;
+  height: 60rem;
 }
 
 
@@ -49,6 +51,10 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.5rem;
     line-height: 1;
+    color: white;
+  }
+  .carousel-caption h1{
+      font-size: 4rem;
   }
 
 
@@ -56,4 +62,26 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.about{
+    margin-top: 5rem;
+}
+.header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    color: #444444;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #555555;
+}
+
+.btn{
+    background-color: #797f2b;
+}
+.navbar-default{
+    background-color: #F8F8F8;
 }
