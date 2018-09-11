@@ -11,42 +11,46 @@
 
     </head>
 
-    <body>
+    <body >
         <!-- Navbar-->
 
 
 
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <a class="navbar-brand" href="https://hackriverdell.com">Hack River Dell</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#FAQs">FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Info</a>
+              <a class="nav-link" href="#info">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Guests</a>
+              <a class="nav-link" href="#guests">Guests</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sponsors</a>
+              <a class="nav-link" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item text-left">
+
             </li>
           </ul>
+          <a class="nav-link" href="#">Register</a>
         </div>
       </nav>
         <!-- Hack River Dell, description, date and location -->
-        <section>
+        <section id="home">
 
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -74,7 +78,7 @@
 
 
         <!-- About section, tells about HACKRD, where it's hosted, classes available, events available -->
-    <section class="about">
+    <section class="about" id="about">
         <div class = "container">
             <h1 class="header">River Dell's Third Annual Hackathon</h1>
             <p>
@@ -96,7 +100,7 @@
 
 
         <!-- FAQs, what is a hackathon, what to bring, what to do if you don't know how to code, cost of event, etc -->
-    <section class="FAQs">
+    <section class="FAQs" id="FAQs">
         <h1 class="text-center">FAQs</h1>
         <div class="container questions">
 
@@ -148,13 +152,13 @@
 
 
         <!-- Schedule, but we can put this up when the event comes near -->
-    <section class="schedule">
+    <section class="info" id="info">
 
     </section>
 
 
         <!-- The Guests that are coming to the event or speaking -->
-    <section class="guests">
+    <section class="guests" id="guests">
         <h1 class="text-center">Guests</h1>
         <div class="container questions">
             <div class="row">
@@ -176,7 +180,7 @@
 
 
         <!-- Sponsors section -->
-    <section class="sponsors">
+    <section class="sponsors" id="sponsors">
 
     </section>
 
@@ -186,14 +190,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>
+                    <p class="footer">
                         Hack River Dell 2018
                     </p>
                     <a href="mailto:contact@hackriverdell.com" class="contact">
                         contact@hackriverdell.com
                     </a>
                     </p>
-                    <p>
+                    <p class="footer">
                         &copy; Hack River Dell 2018
                     </p>
                 </div>
@@ -210,7 +214,11 @@
 
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script scr="script.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 
 </html>
