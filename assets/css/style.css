@@ -104,12 +104,7 @@ footer{
     padding-bottom: 2rem;
     background-color: #266fc1;
 }
-.icon, .icon:visited{
-    color: white;
-}
-.icon:hover, .icon:active{
-    color: #eee;
-}
+
 .footer, .contact, .contact:visited{
     color: white;
     font-size: 1.5rem;
@@ -171,4 +166,53 @@ h2{
 /* Schedule table */
 table{
     align-content: left;
+}
+
+.sponsor{
+    margin-bottom: 3.75rem;
+}
+.tba{
+    margin: auto;
+}
+.team-page{
+    padding-top: 100px;
+}
+.team-info{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.fa-inverse:hover{
+    color: #3B5998;
+    transition: 0.3s;
+    background-color: white;
+}
+.fa-facebook-f{
+    color: #3B5998;
+}
+.fa-square{
+    color: white;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-instagram{
+    color: #262626;
+}
+.fa-users{
+    color: #5C415D;
+}
+.fa-square:hover{
+    color: #3B5998;
+}
+i:hover{
+    color: #266fc1;
+    transition: 0.3s;
+}
+#map{
+    width: 100%;
+    height: 260px;
+    margin-top: 3rem;
+}
+.map-heading{
+    margin-top: 4rem;
 }
