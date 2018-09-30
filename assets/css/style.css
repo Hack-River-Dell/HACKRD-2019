@@ -184,10 +184,6 @@ p{
   }
 }
 /* End of Navbar stuff */
-i{
-    font-size: 3rem;
-    margin: .25rem;
-}
 footer{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -212,9 +208,7 @@ h2{
 .solid{
     background-color: #266fc1;
 }
-.nav-link{
-    color: white;
-}
+
 
 //Schedule
 /* Schedule */
