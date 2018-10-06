@@ -171,15 +171,15 @@ p{
 
 @media screen and (max-width: 992px){
     .carousel-paragraph {
-      margin-bottom: .5rem;
-      font-size: 1rem;
+      margin-bottom: .4rem;
+      font-size: .9rem;
       color: white;
     }
     .carousel-caption h1{
         font-size: 1.25rem;
     }
     .btn-lg {
-        font-size: .75rem;
+        font-size: .70rem;
     }
 }
 .carousel-paragraph{
