@@ -15,30 +15,31 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
   position: relative;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     position: absolute;
     top: 30%;
+    width: 100%;
   bottom: 20rem;
+
   z-index: 10;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-height: 60rem;
-
-  background-color: #777;
+    height: 60rem;
+    background-color: #777;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 1rem;
+  height: auto;
 }
 
 img{
@@ -50,21 +51,7 @@ img{
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.5rem;
-    line-height: 1;
-    color: white;
-  }
-  .carousel-caption h1{
-      font-size: 3rem;
-  }
 
-
-
-}
 
 .about, .FAQs, .guests{
     margin-top: 5rem;
@@ -117,7 +104,7 @@ p{
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 14px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -179,6 +166,24 @@ p{
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
     color: #fdcc52;
   }
+
+}
+
+@media screen and (max-width: 992px){
+    .carousel-paragraph {
+      margin-bottom: .5rem;
+      font-size: 1rem;
+      color: white;
+    }
+    .carousel-caption h1{
+        font-size: 1.25rem;
+    }
+    .btn-lg {
+        font-size: .75rem;
+    }
+}
+.carousel-paragraph{
+    color: white;
 }
 /* End of Navbar stuff */
 footer{
